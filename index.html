@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Alvi's Style Hub - Premium T-Shirts</title>
+  <style>
+    * {
+      margin: 0; padding: 0; box-sizing: border-box;
+    }
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #111;
+      color: #eee;
+      padding: 30px;
+    }
+    header {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+    .logo {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      margin-bottom: 10px;
+      box-shadow: 0 0 15px #1db954;
+    }
+    h1 {
+      font-size: 2.8rem;
+      color: #fff;
+      font-weight: 900;
+      text-shadow: 0 0 10px #1db954;
+    }
+    p.subtitle {
+      text-align: center;
+      color: #bbb;
+      font-size: 1.2rem;
+      margin-top: 10px;
+    }
+
+    .products {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 30px;
+      margin-top: 30px;
+    }
+    .product {
+      background: #222;
+      border-radius: 15px;
+      padding: 20px;
+      width: 280px;
+      box-shadow: 0 0 15px #1db954;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .product:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 25px #1db954;
+    }
+    .product img {
+      width: 100%;
+      border-radius: 12px;
+      box-shadow: 0 0 20px #000;
+      animation: float 3s ease-in-out infinite;
+    }
+    @keyframes float {
+      0%, 100% { transform: translateY(0px); }
+      50% { transform: translateY(-10px); }
+    }
+    .product h3 {
+      margin-top: 15px;
+      font-size: 1.4rem;
+      color: #1db954;
+    }
+    .product p.price {
+      color: #aaa;
+      font-weight: 600;
+      margin: 8px 0 15px 0;
+    }
+    .btn {
+      background: #1db954;
+      border: none;
+      padding: 12px;
+      color: #111;
+      font-weight: 700;
+      font-size: 1rem;
+      border-radius: 25px;
+      cursor: pointer;
+      width: 100%;
+      transition: 0.3s;
+      box-shadow: 0 0 15px #1db954;
+    }
+    .btn:hover {
+      background: #14a648;
+    }
+
+    .options {
+      margin: 60px auto 30px;
+      max-width: 900px;
+      background: #222;
+      padding: 25px;
+      border-radius: 15px;
+      box-shadow: 0 0 15px #1db954;
+    }
+    .options h2 {
+      text-align: center;
+      color: #1db954;
+      margin-bottom: 20px;
+    }
+    .option-list {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      gap: 20px;
+    }
+    .option-item {
+      background: #111;
+      padding: 15px;
+      border-radius: 10px;
+      width: 200px;
+      text-align: center;
+      box-shadow: 0 0 10px #000;
+      transition: box-shadow 0.3s ease;
+    }
+    .option-item:hover {
+      box-shadow: 0 0 20px #1db954;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 50px;
+      color: #888;
+      font-size: 0.9rem;
+    }
+    .contact {
+      margin-top: 15px;
+      line-height: 1.8;
+    }
+    .contact a {
+      color: #1db954;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="https://i.ibb.co/Lzfz7kwc/logo.jpg" alt="Alvi Logo" class="logo" />
+    <h1>Alvi's Style Hub</h1>
+    <p class="subtitle">Premium T-Shirt Collection</p>
+  </header>
+
+  <section class="products">
+    <div class="product">
+      <img src="https://i.ibb.co/TB9WW3C7/image2.jpg" alt="Classic White" />
+      <h3>Classic White</h3>
+      <p class="price">৳499</p>
+      <button class="btn">Order Now</button>
+    </div>
+    <div class="product">
+      <img src="https://i.ibb.co/F4dgGyt7/image1.jpg" alt="Urban Black" />
+      <h3>Urban Black</h3>
+      <p class="price">৳599</p>
+      <button class="btn">Order Now</button>
+    </div>
+    <div class="product">
+      <img src="https://i.ibb.co/v4WmL8VF/image3.jpg" alt="Street Grey" />
+      <h3>Street Grey</h3>
+      <p class="price">৳549</p>
+      <button class="btn">Order Now</button>
+    </div>
+  </section>
+
+  <section class="options">
+    <h2>Why Choose Alvi's Style Hub?</h2>
+    <div class="option-list">
+      <div class="option-item">High Quality Fabrics</div>
+      <div class="option-item">Affordable Prices</div>
+      <div class="option-item">Fast Nationwide Delivery</div>
+      <div class="option-item">24/7 Customer Support</div>
+      <div class="option-item">Satisfaction Guaranteed</div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Alvi's Style Hub. All rights reserved.</p>
+    <div class="contact">
+      <p><strong>Owner:</strong> Alvi Ahmed</p>
+      <p><strong>Email:</strong> <a href="mailto:alviahmed794@gmail.com">alviahmed794@gmail.com</a></p>
+      <p><strong>Phone:</strong> <a href="tel:+8801744340216">+8801744340216</a></p>
+      <p><strong>Facebook:</strong> <a href="https://www.facebook.com/share/1616zf7Vjb/?mibextid=wwXIfr" target="_blank">Visit Profile</a></p>
+    </div>
+  </footer>
+
+</body>
+</html>
